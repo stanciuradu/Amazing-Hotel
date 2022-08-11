@@ -316,8 +316,11 @@ footer form .subscribe-button {
 }
 .footer-website {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
-  margin-left: 35%;
   padding: 10px 10px;
+}
+.footer-website .footer-column a{
+  text-decoration: none;
+  padding-bottom: 3px;
 }
