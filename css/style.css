@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500&family=Ibarra+Real+Nova:wght@500&family=Luxurious+Roman&family=Open+Sans:ital,wght@0,300;1,400&family=The+Nautigal:wght@700&family=Waterfall&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Ibarra Real Nova", serif;
+}
+header {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 7px;
+}
+.container-header {
+  background-color: rgba(0, 0, 255, 0.808);
+  height: 50vh;
+}
+header .container {
+  display: flex;
+  text-align: center;
+}
+header .container h2 {
+  padding: 5px 5px;
+  color: white;
+}
+header button {
+  padding: 5px 15px;
+  color: black;
+  height: 2.5em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.fa-bed {
+  color: white;
+}
+.fa-home {
+  color: white;
+}
+.fa-hotel {
+  color: white;
+}
+.fa-blog {
+  color: white;
+}
+.fa-car {
+  color: white;
+}
+.fa-taxi {
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar a {
+  text-decoration: none;
+  margin-left: 0.5em;
+  color: white;
+}
+.container-header .heading-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-left: 8rem;
+  color: white;
+}
+.container-header .heading-content h1 {
+  margin-bottom: 2rem;
+}
+.container-header .button-heading {
+  padding: 10px;
+  margin-left: 9.5rem;
+  margin-top: 5rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.heading-image1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.heading-image2 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.heading-image2 h1 {
+  padding-left: 12px;
+}
+
+.heading-image1 img {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  border-radius: 10%;
+}
+.heading-image2 .container-image2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heading-image2 .container-image2 p {
+  padding-left: 0.5em;
+}
+.heading-image2 .container-image2 img {
+  width: 100%;
+  height: 50%;
+  padding: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.8;
+}
+
+.heading-image3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+}
+.heading-image3 .container-image3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heading-image3 h1 {
+  padding-left: 12px;
+}
+.heading-image3 .container-image3 img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10%;
+  height: 30rem;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.8;
+}
+.heading-image3 .container-image3 .container9 .image-details h1,
+h2,
+.paragraf {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image3 .container-image3 .container10 .image-details h1,
+h2,
+.paragraf {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image3 .container-image3 .container11 .image-details h1,
+h2,
+.paragraf {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image3 .container-image3 .container12 .image-details h1,
+h2,
+.paragraf {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading-image3 .button {
+  padding: 20px 20px;
+  margin: 10px 10px;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  cursor: pointer;
+  border-radius: 30%;
+  border: none;
+}
+
+.heading-image2 .container-image2 .container4 .image-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image2 .container-image2 .container5 .image-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image2 .container-image2 .container6 .image-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image2 .container-image2 .container7 .image-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.heading-image2 .container-image2 .container8 .image-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.special-services h1 {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.special-services .special-services-one .button-services {
+  padding: 10px;
+  margin: 2px;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  margin-top: 4px;
+}
+.special-services .special-services-content .special-services-one {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0px 0px 10px 0px;
+}
+
+.special-services .special-services-content .special-services-one img {
+  width: 80%;
+  height: 80%;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.special-services .special-services-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.article-one img {
+  width: 80%;
+  height: 80%;
+  box-shadow: 10px 10px 10px;
+}
+.article-one footer {
+  margin-right: 2rem;
+}
+.article-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.rooms-blogs {
+  display: flex;
+  padding: 30px 30px;
+}
+.article-one footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 10px;
+}
+.seervice-paragraf {
+  margin-top: 1em;
+}
+.heading-rooms-blog {
+  margin-left: 1em;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 17, 255, 0.626);
+  padding: 40px 40px;
+}
+.footer h1,
+p {
+  color: white;
+  margin: 0px 0px 1em 0px;
+}
+
+footer form {
+  display: flex;
+  margin: 1em;
+}
+footer form .email {
+  padding: 20px;
+  width: 35em;
+}
+footer form .subscribe-button {
+  background-color: rgba(43, 0, 128, 0.272);
+  margin: 0px 0px 0px 5px;
+  width: 7em;
+  cursor: pointer;
+}
+
+.footer-website .footer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding-bottom: 2px;
+}
+.footer-website {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-left: 35%;
+  padding: 10px 10px;
+}
